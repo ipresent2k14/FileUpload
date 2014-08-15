@@ -55,36 +55,6 @@
             <version>${spring.version}</version>
         </dependency>
      
-<!--         Hibernate library 
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>4.2.7.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>3.12.1.GA</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>4.2.7.Final</version>
-        </dependency>-->
-
-        <!-- MySQL Java Connector library -->
-<!--        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
-        </dependency>     
-        
-        <dependency>
-            <groupId>com.mchange</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.2.1</version>
-        </dependency>-->
-        <!-- Log4j library -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
