@@ -120,7 +120,12 @@
             <groupId>com.sun.faces</groupId>
             <artifactId>jsf-impl</artifactId>
             <version>2.2.4</version>
-        </dependency>       
+        </dependency>  
+        <dependency>
+			<groupId>com.truchsess</groupId>
+			<artifactId>jsfcompounds-core</artifactId>
+			<version>0.0.6</version>
+		</dependency>     
                 
         <!-- General -->
         <dependency>
@@ -196,14 +201,15 @@
    
 
     <build>
+    	<pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                     <compilerArguments>
                         <endorseddirs>${endorsed.dir}</endorseddirs>
                     </compilerArguments>
@@ -243,6 +249,7 @@
                 </executions>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 
 </project>
